@@ -155,7 +155,7 @@
     me.display()
 
     class Company{
-        // static no_of_employees = 0
+        static no_of_employees = 0
         constructor(name, address, contact){
             this.name = name
             this.address = address
@@ -185,7 +185,6 @@
             this.end_date = e_date
         }
     }
-    Company.no_of_employees = 0
 
     var intimetec = new Company("InTimeTec", companyaddress, mycontactdetails)
     Company.no_of_employees = Company.no_of_employees + 1
@@ -193,6 +192,7 @@
     var intimetec_vision = new Company("InTimeTec Vision", companyaddress, mycontactdetails) 
     Company.no_of_employees = Company.no_of_employees + 1
     intimetec_vision.display()
+    document.write(Company.no_of_employees)
 
     class Employee{
         constructor(person, company){
