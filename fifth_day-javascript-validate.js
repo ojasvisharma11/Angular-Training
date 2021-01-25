@@ -1,13 +1,6 @@
 <script>
     class Address{
         constructor(houseno, street, area, zip, city, state, country){
-            this.house_no = null
-            this.street = null
-            this.area = null
-            this.zip_code = null
-            this.city = null
-            this.state = null
-            this.country = null
             if(this.validateHouseNo(houseno) == true){
                 this.house_no = houseno
             }
