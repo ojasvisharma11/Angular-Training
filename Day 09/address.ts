@@ -70,6 +70,6 @@ class Address{
 }
 var myaddress = new Address(702, "Bank Colony", "Railway Station", 301001, "Alwar", "Rajasthan", "India")
 myaddress.display()
-// houseno:number, street:string, area:string, zip:number, city:string, state:string, country:string
+
 var Bankaddress = new Address(501, "Amrapali Plaza", "Amrapali CirCle",302021, "Jaipur", "Rajasthan",  "India")
 Bankaddress.display()
