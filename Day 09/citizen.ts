@@ -14,6 +14,15 @@ class Citizen extends Person{
         super.display()
         console.log(this.adhaar_id, this.passport_id, this.voter_id, this.pancard)
     }
+    get getAdhaar(){
+        return this.adhaar_id
+    }
+    get getPassport(){
+        return this.passport_id
+    }
+    get getVoterId(){
+        return this.voter_id
+    }
 }
 var indianOjasvi = new Citizen("Ojasvi", mydob, "female",1234567890, "abc@mail.com", 702, "Bank Colony", "Railway Station", 301001, "Alwar", "Rajasthan", "India", 123, "Passport", "Vote", "Pan")
 indianOjasvi.display()
