@@ -15,6 +15,15 @@ class Person extends ContactDetails{
         console.log(this.gender)
         super.display()
     }
+    get getName(){
+        return this.name
+    }
+    get getDob(){
+        return this.date_of_birth
+    }
+    get getGender(){
+        return this.gender
+    }
 }
 
 var ojasvi = new Person("Ojasvi", mydob, "female",1234567890, "abc@mail.com", 702, "Bank Colony", "Railway Station", 301001, "Alwar", "Rajasthan", "India")
