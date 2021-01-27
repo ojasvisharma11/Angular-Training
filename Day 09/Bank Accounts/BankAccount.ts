@@ -8,6 +8,9 @@ class BankAccount extends User{
         super.display()
         console.log(this.account_number)
     }
+    get getAccountNo{
+        return this.account_number
+    }
 }
 
 class SavingAccount extends BankAccount{
