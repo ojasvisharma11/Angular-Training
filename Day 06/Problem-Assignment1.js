@@ -1,5 +1,6 @@
 // First
 {/*Call back functions are those functions which are passed as an argument, later to be expected to executed*/}
+
 function AI(face, automation){
     console.log(face, "<br>", automation)
 }
@@ -8,7 +9,12 @@ function DataScience(callback){
 }
 DataScience(AI)
 
+
+
+
 // Second
+{/*Reverse words in a string*/}
+
 sentence = "Hello Friends"
 function reverse(word){
     reversed = ""
@@ -33,6 +39,8 @@ function reverseWords(sentence){
     reverseSentence += reverse(currentWord)
     return reverseSentence
 }
+
+
 // First Approach
 console.log(reverseWords(sentence))
 
@@ -48,7 +56,11 @@ console.log(result)
 // Fails when working with more than one space
 
 
+
+
+
 // Third
+// Check if Integer
 num1 = 2.5
 num2 = 1
 function CheckInteger(number){
@@ -62,7 +74,9 @@ console.log(CheckInteger(num1))
 console.log(CheckInteger(num2))
 
 
+
 // Fourth
+// Make queue of two stack
 class myQueue{
     constructor(){
         this.stack1 = []
@@ -107,7 +121,13 @@ queue.pop()
 queue.display()    
 
 
+
+
 // Sixth
+// Check factors
+// if divieded by 3 = > fizz
+// if divided by 5 = > buzz
+// if divided by 3 and 5 = > fizzbuzz
 function fizzbuzz(range){
     for(i=1;i<=range;i++){
         if(i%3==0 && i%5==0){
@@ -125,6 +145,7 @@ fizzbuzz(100)
 
 
 // Seventh
+// Using maps
 function CheckAnnagrams(string1, string2){
     var map1 = new Map()
     var map2 = new Map()
